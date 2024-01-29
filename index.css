@@ -1,188 +1,188 @@
-.body1
-{
-    background-color: rgb(223, 234, 234);
-    color: rgb(33, 41, 65);
-    font-size: 1.5rem;
-    
+.body1 {
+  background-color: rgb(223, 234, 234);
+  color: rgb(33, 41, 65);
+  font-size: 1.5rem;
 }
 
-.home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(223, 234, 234);
-    color: rgb(33, 41, 65);
-    text-align: center;
-    font-size: 3rem;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(223, 234, 234);
+  color: rgb(33, 41, 65);
+  text-align: center;
+  font-size: 3rem;
 }
-.HomeImage{
-    height: 60%;
-    width: 100%;
+.HomeImage {
+  height: 60%;
+  width: 100%;
 }
-.home-text{
-    position:absolute;
-    width: 100%;
-    top:45%;
-    text-align: center;
-    margin-bottom:6em ;
+.home-text {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  text-align: center;
+  margin-bottom: 6em;
 }
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-    position:fixed;
-    width: 100%;
-    background-color: black;
-    color: rgb(223, 234, 234);
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  color: rgb(223, 234, 234);
 }
-.nest-nav{
-    margin-left:40% ;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1.2rem;
+.nest-nav {
+  margin-left: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2rem;
 }
-.about{
-    display: flex;
+.about {
+  display: flex;
 }
-.aboutpara{
-    display: flex;
-    text-align: center;
-    font-size: 1.6rem;
-    align-items: center;
-    margin-left: 10%;
-    margin-bottom:2%;
+.aboutpara {
+  display: flex;
+  text-align: center;
+  font-size: 1.6rem;
+  align-items: center;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
-img{
-    height: 22rem;
-    width: 25rem;
+img {
+  height: 22rem;
+  width: 25rem;
 }
-.about,.interests,.Skills,.resume,.contacts
-{
-    margin:2.5em;
+.about,
+.interests,
+.Skills,
+.resume,
+.contacts {
+  margin: 2.5em;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color:  rgb(255, 255, 255);
-    padding: 3rem;
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 3rem;
 }
 /* rgb(121, 184, 252); */
-.contact{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 2rem;
-    /* flex-direction: column;
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  /* flex-direction: column;
     flex-wrap: wrap; */
 }
-.resume-para{
-    display: flex;
-    justify-content: center;
-    font-size: larger;
+.resume-para {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
 }
-#myimage{
-    margin-left: 2rem;
-    height:28rem;
-    width:20rem;
+#myimage {
+  margin-left: 2rem;
+  height: 28rem;
+  width: 20rem;
 }
-.about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom:5rem ;
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
 }
-.aboutpara{
-    display:flex;
-    justify-content: center;
-    padding-top: 3rem;
-    font-size:1.8rem;
+.aboutpara {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-size: 1.8rem;
 }
-.interests{
-    display: flex;
+.interests {
+  display: flex;
 }
-.interests-para{
-    display:flex;
-    justify-content: center;
-    padding-top:5rem;
-    padding-left: 2rem;
+.interests-para {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-left: 2rem;
 }
- .Skills{
-    display: flex;
-    flex-direction: column;
-} 
-.skill2{
-    display: flex;
-    flex-direction: column;
+.Skills {
+  display: flex;
+  flex-direction: column;
 }
-.list{
-    padding-left:10rem ;
-    padding-top:3rem ;
+.skill2 {
+  display: flex;
+  flex-direction: column;
 }
-.certificate{
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
+.list {
+  padding-left: 10rem;
+  padding-top: 3rem;
 }
-.certificate2{
-    display: flex;
-    flex-direction: column;
-    gap:0.5rem;
-    padding-left: 3em;
+.certificate {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
 }
-.item{
-    display: flex;
-    align-items: center;
+.certificate2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 3em;
 }
-
-.certificate img{
-    height: 13em;
-    width:20em;
-    border-radius:2rem ;
-}
-#c-image1{
-    height: 18em;
-    width:14em;
-    border-radius:1rem ;
+.item {
+  display: flex;
+  align-items: center;
 }
 
-.projects{
-    padding-left: 3rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.certificate img {
+  height: 13em;
+  width: 20em;
+  border-radius: 2rem;
 }
-.projects2{
-    padding-left: 2em;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
+#c-image1 {
+  height: 18em;
+  width: 14em;
+  border-radius: 1rem;
 }
 
-.project-image1{
-    margin:1rem;
-    height:28rem ;
-    width: 55rem;
-    border-radius: 2rem;
-
+.projects {
+  padding-left: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.projects2 {
+  padding-left: 2em;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
 }
 
-.project-image2{
-    margin:1rem;
-    height:28rem ;
-    width: 55rem;
-    border-radius: 2.5rem;
+.project-image1 {
+  margin: 1rem;
+  height: 28rem;
+  width: 55rem;
+  border-radius: 2rem;
 }
-img{
-    border-radius: 15%;
+
+.project-image2 {
+  margin: 1rem;
+  height: 28rem;
+  width: 55rem;
+  border-radius: 2.5rem;
 }
-a:hover{
-    cursor: pointer;
-    color: rgb(254, 94, 94);
-    font-size:1.6rem ;
+img {
+  border-radius: 15%;
 }
-a:active{
-    color: rgb(8, 41, 96);
+a:hover {
+  cursor: pointer;
+  color: rgb(254, 94, 94);
+  font-size: 1.6rem;
 }
-a:visited{
-    color: rgb(15, 15, 36);
+a:active {
+  color: rgb(8, 41, 96);
+}
+a:visited {
+  color: rgb(15, 15, 36);
 }
